@@ -1,2 +1,43 @@
-body{background-color:grey}
-/*har lagt in en grå bakgrund för att logotyp skall vara synlig innan css är klar*/
+
+/*tar bort förinställda margins och paddings*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: #386312;
+    text-align: center;
+}
+header img{
+    max-width:250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav{
+    text-align: left;
+    
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    border-top:1px solid black;
+    width:100%;
+    padding:0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.9rem;
+    line-height: 2.0em;
+    font-family: 'Montserrat', sans-serif;
+    padding-left:10px;
+    border-color: black;
+}
+
+
