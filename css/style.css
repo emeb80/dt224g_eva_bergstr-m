@@ -8,7 +8,7 @@
 p{
 font-family: 'Montserrat', sans-serif;
 font-size: 1.0rem;
-font-weight: 600;
+font-weight: 450;
 text-align: center;
 padding:15px;
 line-height: 1.5em;
@@ -60,6 +60,10 @@ a{
 .hero img{
     max-width: 100%;
 }
+
+.hero p{
+    font-weight: 600;
+}
 h1{
     font-family: 'National Park', sans-serif;
     font-size: 1.7rem;
@@ -67,10 +71,20 @@ h1{
     margin-bottom: 10px;
 }
 
+h2{
+    font-family: 'National Park', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
 .btn{
     display: inline-block;
     background-color: #386312;
     padding:3px 12px;
     border-radius: 8px;
-    margin-bottom:12px;
+    margin-bottom:15px;
+}
+
+.intro{
+    background-color: #e3baa0;
+    
 }
