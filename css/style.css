@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+p{
+font-family: 'Montserrat', sans-serif;
+font-size: 1.0rem;
+font-weight: 600;
+text-align: center;
+padding:15px;
+line-height: 1.5em;
+}
+
 header{
     background-color: #386312;
     text-align: center;
@@ -30,14 +39,38 @@ nav li{
     padding:0;
 }
 
-nav ul li a{
+a{
     text-decoration: none;
     color:white;
     font-size: 0.9rem;
     line-height: 2.0em;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     padding-left:10px;
     border-color: black;
 }
 
+.hero{
+    background-color: #abc9d4;
+    text-align: center;
+    border-bottom:1px solid black;
+    
 
+}
+.hero img{
+    max-width: 100%;
+}
+h1{
+    font-family: 'National Park', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #386312;
+    padding:3px 12px;
+    border-radius: 8px;
+    margin-bottom:12px;
+}
