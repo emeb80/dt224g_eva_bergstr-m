@@ -75,6 +75,12 @@ h2{
     font-family: 'National Park', sans-serif;
     font-size: 1.5rem;
     text-align: center;
+    padding-top: 10px;
+}
+
+h3{
+    font-family: 'National Park', sans-serif;
+    padding: 5px 15px 0 15px;
 }
 .btn{
     display: inline-block;
@@ -86,5 +92,44 @@ h2{
 
 .intro{
     background-color: #e3baa0;
+    border-bottom: 1px solid black;
     
 }
+
+.aktiviteter{
+    background-color: #abc9d4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+    gap:30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid black;
+    
+    
+}
+article{
+    background-color: #386312;
+    border-radius: 5px;
+    max-width: 300px;
+    width:100%;
+    color: white;
+    
+}
+
+article img{
+    width:100%;
+    display:block;
+    border-radius: 3px 3px 0 0;
+}
+article p{
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.planera{
+background-color: #e3baa0;
+text-align: center;
+border-bottom: 1px solid black;
+}
+
