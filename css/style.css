@@ -4,16 +4,7 @@
     margin:0;
     padding: 0;
 }
-
-p{
-font-family: 'Montserrat', sans-serif;
-font-size: 1.0rem;
-font-weight: 450;
-text-align: center;
-padding:15px;
-line-height: 1.5em;
-}
-
+/*headerinställningar*/
 header{
     background-color: #386312;
     text-align: center;
@@ -23,7 +14,7 @@ header img{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+/*navigeringslistan som meny*/
 nav{
     text-align: left;
     
@@ -47,9 +38,9 @@ a{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     padding-left:10px;
-    border-color: black;
+    
 }
-
+/*herosektionen med bild och text*/
 .hero{
     background-color: #abc9d4;
     text-align: center;
@@ -64,6 +55,8 @@ a{
 .hero p{
     font-weight: 600;
 }
+
+/*rubriker på olika nivåer samt brödtext - grundstyling*/
 h1{
     font-family: 'National Park', sans-serif;
     font-size: 1.7rem;
@@ -82,6 +75,16 @@ h3{
     font-family: 'National Park', sans-serif;
     padding: 5px 15px 0 15px;
 }
+
+p{
+font-family: 'Montserrat', sans-serif;
+font-size: 1.0rem;
+font-weight: 450;
+text-align: center;
+padding:15px;
+line-height: 1.5em;
+}
+/*knappar i hero samt i call to action segment*/
 .btn{
     display: inline-block;
     background-color: #386312;
@@ -95,7 +98,7 @@ h3{
     border-bottom: 1px solid black;
     
 }
-
+/*puffarna i form av kort*/
 .aktiviteter{
     background-color: #abc9d4;
     display:flex;
@@ -126,10 +129,90 @@ article p{
     font-size: 0.8rem;
     font-weight: 400;
 }
-
+/*call to action sektion*/
 .planera{
 background-color: #e3baa0;
 text-align: center;
 border-bottom: 1px solid black;
 }
+/*footer med styling för att "skriva över" generell kod*/
+footer{
+    background-color: #386312;
+    color: white;
+    text-align: center;
+}
 
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-top:0;
+    padding-bottom: 30px;
+}
+
+footer img{
+    max-width: 150px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.info{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:60px;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-bottom: 30px; 
+}
+
+
+
+.kontakt {
+    text-align: left;    
+    padding: 0;          
+    font-size: 0.8rem;
+}
+
+.lankar{
+    list-style: none;
+    text-align: left;    
+}
+
+.lankar a {
+    padding-left: 0;     
+    font-size: 0.8rem;
+}
+
+/*footer{
+    background-color: #386312;
+    color: white;
+   text-align: center;
+}
+
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    padding:0;
+}
+
+footer img{
+    max-width: 150px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    
+}
+footer .info{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:30px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.lankar{
+    font-size: 1.0rem;
+}
