@@ -184,3 +184,46 @@ footer img{
     font-size: 0.8rem;
 }
 
+/*css-regler för desktop*/
+
+@media (min-width:900px){
+
+/*gör om header till flexbox för at styra logga och meny separat*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 40px;
+}
+header img{
+    max-width: 350px;
+}
+/*gör om menyn till att vara en rad istället för en vertikal lista*/
+nav{
+
+    align-self: center;
+}
+
+/*gör listan till en flexbox inuti flexboxen header*/
+nav ul{
+    display: flex;
+    gap:5px;
+}
+ 
+nav li {
+   border-top: none;
+   width: auto; 
+   padding:5px;
+}
+
+nav li a{
+    font-size: 1.2rem;
+  
+}
+/*lägger på effekt så texten byter färg när man pekar på den*/
+nav li a:hover{
+    color: #e3baa0;
+    
+}
+
+}
