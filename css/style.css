@@ -225,5 +225,50 @@ nav li a:hover{
     color: #e3baa0;
     
 }
+/*anpassar hero så att texten ligger ovanpå bilden*/
+.hero{
+    position: relative;
+}
+.hero img{
+    width:100%;
+    display:block;
+}
+/*gruppering för att kunna styra hela detta som ett element - förenklar vid responsivitet*/
+.herotext_knapp{
+    position:absolute;
+    display:flex;
+    top:25%;
+    left:35px;
+    flex-direction:column;
+    
+}
+/*anpassar så att rubrik och text läggs ovanpå referenspunkten-bilden, knapp läggs ovanpå bild*/
+.hero h1{
+    color:white;
+    font-size: 3.0rem;
+    font-family: 'National Park', sans-serif;
+    font-weight: 500;
+    max-width: 500px;
+    text-align: left;
+}
 
+.hero p{
+    font-family: 'Montserrat',sans-serif;
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    max-width:500px;
+    text-align: left;
+}
+.hero .btn{
+    align-self: flex-start;
+    font-size: 1.2rem;
+    padding:0 20px;  
+}
+
+/*hover-effekt på knapparna så bakgrunden ändrar färg*/
+.btn:hover{
+    background-color:#428a04;
+    transition:background-color 0.5s;
+}
 }
