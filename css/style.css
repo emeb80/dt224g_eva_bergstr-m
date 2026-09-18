@@ -184,35 +184,3 @@ footer img{
     font-size: 0.8rem;
 }
 
-/*footer{
-    background-color: #386312;
-    color: white;
-   text-align: center;
-}
-
-footer h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 500;
-
-    padding:0;
-}
-
-footer img{
-    max-width: 150px;
-    margin-top: 20px;
-    margin-bottom: 0;
-    
-}
-footer .info{
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    gap:30px;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-
-.lankar{
-    font-size: 1.0rem;
-}
