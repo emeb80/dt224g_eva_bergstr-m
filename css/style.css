@@ -187,6 +187,11 @@ footer img{
 /*css-regler för desktop*/
 
 @media (min-width:900px){
+    h2{
+        font-size: 2.0rem;
+        padding-top: 20px;
+        padding-bottom:20px;
+    }
 
 /*gör om header till flexbox för at styra logga och meny separat*/
 header{
@@ -271,4 +276,32 @@ nav li a:hover{
     background-color:#428a04;
     transition:background-color 0.5s;
 }
+
+/*sektionen med puffar*/
+.aktiviteter{
+    background-color: #abc9d4;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    gap:30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid black;
+}  
+    .aktiviteter h2{
+width:100%;
+
+text-align: center;
+}
+article{
+    max-width: 500px;
+    margin-top:20px;
+margin-bottom:60px;
+       }
+    
+article:hover{
+    background-color:#428a04;
+    transition:background-color 0.5s;
+}
+    
 }
