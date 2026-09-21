@@ -98,6 +98,12 @@ line-height: 1.5em;
     border-bottom: 1px solid black;
     
 }
+.intro img{
+    display:none;
+    
+
+    
+}
 /*puffarna i form av kort*/
 .aktiviteter{
     background-color: #abc9d4;
@@ -186,7 +192,8 @@ footer img{
 
 /*css-regler för desktop*/
 
-@media (min-width:900px){
+@media (min-width:900px)
+{
     h2{
         font-size: 2.0rem;
         padding-top: 20px;
@@ -277,7 +284,38 @@ nav li a:hover{
     transition:background-color 0.5s;
 }
 
-/*sektionen med puffar*/
+/*sektionen nära till naturen för desktop*/
+.intro{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    gap:50px;
+    padding-bottom: 40px;
+    padding-top:40px;;
+    
+    
+}
+.intro h2{
+    text-align: left;
+    padding-left:10px;
+    
+}
+
+.intro p{
+
+max-width:500px;
+text-align:left;
+
+}
+/*en extra bild tillagd på desktop för att fylla ut det tomma området som blir med så lite text*/
+.intro img{
+    display:block;
+    width:500px;
+    height:250px;
+    
+}
+
+/*sektionen med puffar. flex wrap används för att bilderna staplas när skärmstorleken minskar.*/
 .aktiviteter{
     background-color: #abc9d4;
     display:flex;
@@ -288,7 +326,7 @@ nav li a:hover{
     padding-bottom:30px;
     border-bottom: 1px solid black;
 }  
-    .aktiviteter h2{
+.aktiviteter h2{
 width:100%;
 
 text-align: center;
@@ -303,5 +341,4 @@ article:hover{
     background-color:#428a04;
     transition:background-color 0.5s;
 }
-    
 }
