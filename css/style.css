@@ -1,344 +1,333 @@
-
 /*tar bort förinställda margins och paddings*/
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /*headerinställningar*/
-header{
-    background-color: #386312;
-    text-align: center;
+header {
+  background-color: #386312;
+  text-align: center;
 }
-header img{
-    max-width:250px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+header img {
+  max-width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*navigeringslistan som meny*/
-nav{
-    text-align: left;
-    
+nav {
+  text-align: left;
 }
 
-nav ul{
-    list-style: none;
+nav ul {
+  list-style: none;
 }
 
-nav li{
-    border-top:1px solid black;
-    width:100%;
-    padding:0;
+nav li {
+  border-top: 1px solid black;
+  width: 100%;
+  padding: 0;
 }
 
-a{
-    text-decoration: none;
-    color:white;
-    font-size: 0.9rem;
-    line-height: 2.0em;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    padding-left:10px;
-    
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 2em;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 10px;
 }
 /*herosektionen med bild och text*/
-.hero{
-    background-color: #abc9d4;
-    text-align: center;
-    border-bottom:1px solid black;
-    
-
+.hero {
+  background-color: #abc9d4;
+  text-align: center;
+  border-bottom: 1px solid black;
 }
-.hero img{
-    max-width: 100%;
+.hero img {
+  max-width: 100%;
 }
 
-.hero p{
-    font-weight: 600;
+.hero p {
+  font-weight: 600;
 }
 
 /*rubriker på olika nivåer samt brödtext - grundstyling*/
-h1{
-    font-family: 'National Park', sans-serif;
-    font-size: 1.7rem;
-    line-height: 1em;
-    margin-bottom: 10px;
+h1 {
+  font-family: "National Park", sans-serif;
+  font-size: 1.7rem;
+  line-height: 1em;
+  margin-bottom: 10px;
 }
 
-h2{
-    font-family: 'National Park', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    padding-top: 10px;
+h2 {
+  font-family: "National Park", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 10px;
 }
 
-h3{
-    font-family: 'National Park', sans-serif;
-    padding: 5px 15px 0 15px;
+h3 {
+  font-family: "National Park", sans-serif;
+  padding: 5px 15px 0 15px;
 }
 
-p{
-font-family: 'Montserrat', sans-serif;
-font-size: 1.0rem;
-font-weight: 450;
-text-align: center;
-padding:15px;
-line-height: 1.5em;
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 450;
+  text-align: center;
+  padding: 15px;
+  line-height: 1.5em;
 }
 /*knappar i hero samt i call to action segment*/
-.btn{
-    display: inline-block;
-    background-color: #386312;
-    padding:3px 12px;
-    border-radius: 8px;
-    margin-bottom:15px;
+.btn {
+  display: inline-block;
+  background-color: #386312;
+  padding: 3px 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
-.intro{
-    background-color: #e3baa0;
-    border-bottom: 1px solid black;
-    
+.intro {
+  background-color: #e3baa0;
+  border-bottom: 1px solid black;
 }
-.intro img{
-    display:none;
-    
-
-    
+.intro img {
+  display: none;
 }
 /*puffarna i form av kort*/
-.aktiviteter{
-    background-color: #abc9d4;
-    display:flex;
-    flex-direction: column;
-    align-items: center;    
-    gap:30px;
-    padding-bottom:30px;
-    border-bottom: 1px solid black;
-    
-    
+.aktiviteter {
+  background-color: #abc9d4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
 }
-article{
-    background-color: #386312;
-    border-radius: 5px;
-    max-width: 300px;
-    width:100%;
-    color: white;
-    
+article {
+  background-color: #386312;
+  border-radius: 5px;
+  max-width: 300px;
+  width: 100%;
+  color: white;
 }
 
-article img{
-    width:100%;
-    display:block;
-    border-radius: 3px 3px 0 0;
+article img {
+  width: 100%;
+  display: block;
+  border-radius: 3px 3px 0 0;
 }
-article p{
-    text-align: left;
-    font-size: 0.8rem;
-    font-weight: 400;
+article p {
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 /*call to action sektion*/
-.planera{
-background-color: #e3baa0;
-text-align: center;
-border-bottom: 1px solid black;
+.planera {
+  background-color: #e3baa0;
+  text-align: center;
+  border-bottom: 1px solid black;
 }
 /*footer med styling för att "skriva över" generell kod*/
-footer{
-    background-color: #386312;
-    color: white;
-    text-align: center;
+footer {
+  background-color: #386312;
+  color: white;
+  text-align: center;
 }
 
-footer h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 500;
-    padding-top:0;
-    padding-bottom: 30px;
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 30px;
 }
 
-footer img{
-    max-width: 150px;
-    margin-top: 20px;
-    margin-bottom: 0;
+footer img {
+  max-width: 150px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
-.info{
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    gap:60px;
-    align-items: flex-start;
-    margin-top: 20px;
-    padding-bottom: 30px; 
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding-bottom: 30px;
 }
-
-
 
 .kontakt {
-    text-align: left;    
-    padding: 0;          
-    font-size: 0.8rem;
+  text-align: left;
+  padding: 0;
+  font-size: 0.8rem;
 }
 
-.lankar{
-    list-style: none;
-    text-align: left;    
+.lankar {
+  list-style: none;
+  text-align: left;
 }
 
 .lankar a {
-    padding-left: 0;     
-    font-size: 0.8rem;
+  padding-left: 0;
+  font-size: 0.8rem;
 }
 
 /*css-regler för desktop*/
 
-@media (min-width:900px)
-{
-    h2{
-        font-size: 2.0rem;
-        padding-top: 20px;
-        padding-bottom:20px;
-    }
-
-/*gör om header till flexbox för at styra logga och meny separat*/
-header{
+@media (min-width: 900px) {
+    /*rubrikstorlek samt brödtextstorlek som förändras i desktop*/
+  h2 {
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  /*gör om header till flexbox för at styra logga och meny separat*/
+  header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:0 40px;
-}
-header img{
+    padding: 0 40px;
+  }
+  header img {
     max-width: 350px;
-}
-/*gör om menyn till att vara en rad istället för en vertikal lista*/
-nav{
-
+  }
+  /*gör om menyn till att vara en rad istället för en vertikal lista*/
+  nav {
     align-self: center;
-}
+  }
 
-/*gör listan till en flexbox inuti flexboxen header*/
-nav ul{
+  /*gör listan till en flexbox inuti flexboxen header*/
+  nav ul {
     display: flex;
-    gap:5px;
-}
- 
-nav li {
-   border-top: none;
-   width: auto; 
-   padding:5px;
-}
+    gap: 5px;
+  }
 
-nav li a{
+  nav li {
+    border-top: none;
+    width: auto;
+    padding: 5px;
+  }
+
+  nav li a {
     font-size: 1.2rem;
-  
-}
-/*lägger på effekt så texten byter färg när man pekar på den*/
-nav li a:hover{
+  }
+  /*lägger på effekt så texten byter färg när man pekar på den*/
+  nav li a:hover {
     color: #e3baa0;
-    
-}
-/*anpassar hero så att texten ligger ovanpå bilden*/
-.hero{
+  }
+  /*anpassar hero så att texten ligger ovanpå bilden*/
+  .hero {
     position: relative;
-}
-.hero img{
-    width:100%;
-    display:block;
-}
-/*gruppering för att kunna styra hela detta som ett element - förenklar vid responsivitet*/
-.herotext_knapp{
-    position:absolute;
-    display:flex;
-    top:25%;
-    left:35px;
-    flex-direction:column;
-    
-}
-/*anpassar så att rubrik och text läggs ovanpå referenspunkten-bilden, knapp läggs ovanpå bild*/
-.hero h1{
-    color:white;
-    font-size: 3.0rem;
-    font-family: 'National Park', sans-serif;
+  }
+  .hero img {
+    width: 100%;
+    display: block;
+  }
+  /*gruppering för att kunna styra hela detta som ett element - förenklar vid responsivitet*/
+  .herotext_knapp {
+    position: absolute;
+    display: flex;
+    top: 25%;
+    left: 35px;
+    flex-direction: column;
+  }
+  /*anpassar så att rubrik och text läggs ovanpå referenspunkten-bilden, knapp läggs ovanpå bild*/
+  .hero h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: "National Park", sans-serif;
     font-weight: 500;
     max-width: 500px;
     text-align: left;
-}
+  }
 
-.hero p{
-    font-family: 'Montserrat',sans-serif;
-    color:white;
+  .hero p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
     font-size: 1.3rem;
     font-weight: 300;
-    max-width:500px;
+    max-width: 500px;
     text-align: left;
-}
-.hero .btn{
+  }
+  .hero .btn {
     align-self: flex-start;
     font-size: 1.2rem;
-    padding:0 20px;  
-}
+    padding: 0 20px;
+  }
 
-/*hover-effekt på knapparna så bakgrunden ändrar färg*/
-.btn:hover{
-    background-color:#428a04;
-    transition:background-color 0.5s;
-}
+  /*hover-effekt på knapparna så bakgrunden ändrar färg*/
+  .btn:hover {
+    background-color: #428a04;
+    transition: background-color 0.5s;
+  }
 
-/*sektionen nära till naturen för desktop*/
-.intro{
+  /*sektionen nära till naturen för desktop*/
+  .intro {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-end;
-    gap:50px;
+    gap: 50px;
     padding-bottom: 40px;
-    padding-top:40px;;
-    
-    
-}
-.intro h2{
+    padding-top: 40px;
+  }
+  .intro h2 {
+    width: 100%;
     text-align: left;
-    padding-left:10px;
-    
-}
+    padding-left:12px;
+    padding-top:0;
+  }
 
-.intro p{
+  .intro p {
+    max-width: 500px;
+    text-align: left;
+    padding-top:0;
+  }
+  /*en extra bild tillagd på desktop för att fylla ut det tomma området som blir med så lite text*/
+  .intro img {
+    display: block;
+    width: 400px;
+    height: 270px;
+  }
 
-max-width:500px;
-text-align:left;
-
-}
-/*en extra bild tillagd på desktop för att fylla ut det tomma området som blir med så lite text*/
-.intro img{
-    display:block;
-    width:500px;
-    height:250px;
-    
-}
-
-/*sektionen med puffar. flex wrap används för att bilderna staplas när skärmstorleken minskar.*/
-.aktiviteter{
+  /*sektionen med puffar. flex wrap används för att bilderna staplas när skärmstorleken minskar.*/
+  .aktiviteter {
     background-color: #abc9d4;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;  
-    gap:30px;
-    padding-bottom:30px;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-bottom: 30px;
     border-bottom: 1px solid black;
-}  
-.aktiviteter h2{
-width:100%;
-
-text-align: center;
-}
-article{
+  }
+  .aktiviteter h2 {
+    width: 100%;
+    text-align: center;
+  }
+  article {
     max-width: 500px;
-    margin-top:20px;
-margin-bottom:60px;
-       }
-    
-article:hover{
-    background-color:#428a04;
-    transition:background-color 0.5s;
-}
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  article:hover {
+    background-color: #428a04;
+    transition: background-color 0.5s;
+  }
+  .planera {
+    padding-bottom: 30px;
+  }
+  .planera p {
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom:40px;
+
+  }
 }
