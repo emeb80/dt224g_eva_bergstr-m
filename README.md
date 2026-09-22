@@ -28,4 +28,4 @@ dt224g_eva_bergström/
 ##Länkar
 *https://www.figma.com/design/tFc6qmUG3MdhUtHmSdM4Ue/Untitled?node-id=0-1&t=W9vjuc0fgoxVJwqy-1
 *https://emeb80.github.io/dt224g_eva_bergstr-m/
-
+*https://norrglant.netlify.app
