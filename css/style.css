@@ -149,8 +149,8 @@ footer img {
   margin-top: 20px;
   margin-bottom: 0;
 }
-.desktoplogga{
-    display:none;
+.desktoplogga {
+  display: none;
 }
 .info {
   display: flex;
@@ -181,7 +181,7 @@ footer img {
 /*css-regler för desktop*/
 
 @media (min-width: 900px) {
-    /*rubrikstorlek samt brödtextstorlek som förändras i desktop*/
+  /*rubrikstorlek samt brödtextstorlek som förändras i desktop*/
   h2 {
     font-size: 2rem;
     padding-top: 20px;
@@ -282,14 +282,14 @@ footer img {
   .intro h2 {
     width: 100%;
     text-align: left;
-    padding-left:12px;
-    padding-top:0;
+    padding-left: 12px;
+    padding-top: 0;
   }
 
   .intro p {
     max-width: 500px;
     text-align: left;
-    padding-top:0;
+    padding-top: 0;
   }
   /*en extra bild tillagd på desktop för att fylla ut det tomma området som blir med så lite text*/
   .intro img {
@@ -329,50 +329,47 @@ footer img {
   .planera p {
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom:2px;
-}
-.planera .btn{
-    margin-top:30px;
+    padding-bottom: 2px;
+  }
+  .planera .btn {
+    margin-top: 30px;
   }
   /*ändrar riktning på flexboxen .info*/
-  .info{
-    display:flex;
+  .info {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap:0px;
+    gap: 0px;
   }
- .mobillogga{
-    max-width:300px;
- }
- footer h2{
-    font-size:2.0rem;
-    padding:0;
- }
+  .mobillogga {
+    max-width: 300px;
+  }
+  footer h2 {
+    font-size: 2rem;
+    padding: 0;
+  }
 
-    
-    .kontakta_oss p{
-        font-size: 1.5rem;
-        text-align: center;
-        
-    }
-    .kontakta_oss p:hover{
-        color: #e3baa0;
-    }
-.lankar{
-    width:100%;
+  .kontakta_oss p {
+    font-size: 1.5rem;
     text-align: center;
-}
-.lankar ul{
+  }
+  .kontakta_oss p:hover {
+    color: #e3baa0;
+  }
+  .lankar {
+    width: 100%;
+    text-align: center;
+  }
+  .lankar ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:30px;
-
-}
-.lankar ul li a{
+    gap: 30px;
+  }
+  .lankar ul li a {
     font-size: 1.2rem;
-}
-.lankar a:hover{
+  }
+  .lankar a:hover {
     color: #e3baa0;
-}
+  }
 }
