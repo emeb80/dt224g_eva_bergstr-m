@@ -31,4 +31,3 @@ dt224g_eva_bergström/
 * **Figma-mockup:** [Klicka här för att se Figma-filen](https://www.figma.com/design/tFc6qmUG3MdhUtHmSdM4Ue/Untitled?node-id=0-1&t=W9vjuc0fgoxVJwqy-1)
 * **GitHub Pages:** [Klicka här för att se sidan på GitHub Pages](https://emeb80.github.io/dt224g_eva_bergstr-m/)
 * **Netlify-publicering:** [Klicka här för att se sidan på Netlify](https://norrglant.netlify.app)
-Använd koden med försiktighet.
